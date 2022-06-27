@@ -6,7 +6,6 @@ export const Icon = ({...restProps}: TouchableOpacityProps & ImageProps) => {
         <TouchableOpacity>
             <Image style={[styles.icon]} source={restProps.source}/>
         </TouchableOpacity>
-
     );
 };
 
@@ -14,5 +13,6 @@ const styles = StyleSheet.create({
     icon: {
         width: 40,
         height: 40,
+        margin: 18,
     }
 })
